@@ -16,7 +16,7 @@ class _PaginaState extends State<Pagina> {
       appBar: AppBar(
           title: const Text("Lista de Aulas"), backgroundColor: Colors.orange),
       body: Container(
-        padding: const EdgeInsets.all(200),
+        padding: const EdgeInsets.all(50),
         child: Center(
             child: ListView(
           children: _lista.map((text) {
